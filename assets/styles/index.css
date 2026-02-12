@@ -214,7 +214,7 @@ button:hover{
 }
 
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 414px) {
 
     h2 {
         font-size: 18px;
