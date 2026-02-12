@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Olure Emmanuel">
+        <meta name="description" content="First WebPage">
+        <meta name="keywords" content="html, css, web, web development, javascript">
+        <link rel="icon" href="./assets/media/cupidIcon.png" type="image/x-icon">
+        <title>Valentine's Site</title>
+        <link rel="stylesheet" href="./assets/styles/index.css" media="all">
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        <script src="./assets/script/app.js" defer></script>
+        <!--Links to font awesome, Google fonts, etc-->
+    </head>
+    <body>
+        <main>
+            <div class="background home-box">
+                <div class="main-box">
+                    <div class="image-box">
+                        <img src="" alt="images">
+                    </div>
+                </div>
+                <div class="text-box">
+                    <div class="box-details">
+                        <h2></h2>
+                        <p class="comment"></p>
+                        <p class="love-text">
+                            You're so beautiful in and out!
+                            I wish you can see yourself the way I do. 
+                            Every version of you amazes Me, Happy Valentine's Day My Sweet One🌹
+                        </p>
+                        <input type="text" placeholder="Your Answer...">
+                        <p class="progress">Question 0 / 4</p>
+                        <div class="button-box">
+                            <div class="btn-first">
+                                <button class="btn3">Next Question</button>
+                            </div>
+                            <div class="btn-choice">
+                                <button class="btn1">YES</button>
+                                <button class="btn2">NO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script>
+            (function(){
+                emailjs.init("giUUW9ORJ_Z4Po2Ik");
+            })();
+        </script>
+    </body>
+</html>    
