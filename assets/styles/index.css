@@ -189,6 +189,36 @@ button:hover{
         0 0 16px #FFD1DC;
 }
 
+.letter-box {
+    background: white;
+    color: #333;
+    width: 100%;
+    max-width: 600px;
+    height: 50vh;
+    padding: 10px;
+    border-radius: 15px;
+    overflow-y: auto;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+    text-align: left;
+    line-height: 1.6;
+    display: block; 
+    font-size: 16px;
+}
+
+.letter-box p {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.letter-box::-webkit-scrollbar {
+    width: 6px;
+}
+
+.letter-box::-webkit-scrollbar-thumb {
+    background: #ff4d6d;
+    border-radius: 10px;
+}
+
 .love-text {
     margin-top: 12px;
     font-size: 35px;
@@ -214,6 +244,11 @@ button:hover{
 
 
 @media screen and (max-width: 414px) {
+
+    h1{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
 
     h2 {
         font-size: 18px;
